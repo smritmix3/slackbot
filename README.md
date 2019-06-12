@@ -1,20 +1,16 @@
-# Python version required to run this project 
-			3.6.8
-# List of package and versions requied to run the project
-		spacy==2.1.1
-		scikit-learn==0.19.2
-		numpy==1.16.2
-		scipy==1.2.1
-		sklearn-crfsuite==0.3.6
-		tensorflow==1.9.0
-		rasa-nlu==0.13.8
-		rasa-core==0.11.1
-		rasa-core-sdk==0.11.0
-		gunicorn==19.9.0
-		requests==2.18.4
-
-python -m spacy download en_core_web_lg
-python -m spacy link en_core_web_lg en
+# Python version required to run this project is 3.6.8
+# List of package and versions requied to run the proc
+spacy==2.1.1
+scikit-learn==0.19.2
+numpy==1.16.2
+scipy==1.2.1
+sklearn-crfsuite==0.3.6
+tensorflow==1.9.0
+rasa-nlu==0.13.8
+rasa-core==0.11.1
+rasa-core-sdk==0.11.0
+gunicorn==19.9.0
+requests==2.18.4
 
 
 # (1.) Train the nlu model
@@ -37,9 +33,5 @@ python -m spacy link en_core_web_lg en
 			
 			Note-Make sure the custom action server is running
 			
-# (4.) Talking to bot( only on command line)
-
-
+# (4.) Talking to bot
 			''' python bot.py '''
-			
-			
