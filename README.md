@@ -9,9 +9,10 @@
 	rasa-nlu==0.13.8
 	rasa-core==0.11.1
 	rasa-core-sdk==0.11.0
-	gunicorn==19.9.0
-	requests==2.18.4
 
+# Download and link en spacy model
+	python -m spacy download en_core_web_lg
+	python -m spacy link en_core_web_lg en
 
 # (1.) Train the nlu model
 		''' python nlu_model.py '''
