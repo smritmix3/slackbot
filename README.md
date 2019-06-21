@@ -9,7 +9,8 @@
 	rasa-nlu==0.13.8
 	rasa-core==0.11.1
 	rasa-core-sdk==0.11.0
-
+# use link for c++ build tools error
+	https://landinghub.visualstudio.com/visual-cpp-build-tools
 # Download and link en spacy model
 	python -m spacy download en_core_web_lg
 	python -m spacy link en_core_web_lg en
